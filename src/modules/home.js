@@ -3,7 +3,8 @@ function information() {
     about.classList.add('about-div');
 
     const h3 = document.createElement('h3');
-    h3.textContent = 'Best Restaurant 4 your daily meals'
+    // h3.textContent = 'Best Restaurant 4 your daily meals'
+    h3.innerHTML  = 'Best Restaurant <br/> 4 your daily meals'
     about.appendChild(h3);
 
     const p = document.createElement('p');
@@ -11,7 +12,7 @@ function information() {
     about.appendChild(p);
 
     const h2 = document.createElement('h2');
-    h2.textContent = 'Visit us or take it with you';
+    h2.innerHTML = 'Order Online, <br/> we take it 4 you';
     about.appendChild(h2);
 
 
