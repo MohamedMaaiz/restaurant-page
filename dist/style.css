@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Courgette&family=Gemunu+Libre:wght@200&family=Patrick+Hand&family=Rochester&display=swap');
+html {
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: wheat;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 3vh;
+}
+
+h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/********** Nav **********/
+nav {
+    background-color: violet;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 8vh;
+}
+
+nav button {
+    font-family: 'Courgette', cursive;
+    background-color: cadetblue;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+main {
+    background-color: turquoise;
+    padding: 1vh 5vw 0vh 5vw;
+    font-size: 25px;
+    height: 74vh;
+}
+
+/********** Menu **********/
+.menu-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 66vh;
+    margin-bottom: 2vh;
+    margin-right: 4vw;
+}
+
+.menu-card {
+    background-color: bisque;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 32vw;
+    height: 26vh;
+    line-height: 1.3;
+    border-radius: 8%;
+}
+
+.menu-card h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: .05em;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-card p {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+    margin: 0 1.5vw;
+}
+
+.menu-card span {
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    bottom: 2vh;
+    font-size: 1.5rem;
+    transform: rotate(-60deg);
+}
+
+.menu-card img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    bottom: -4vh;
+    right: -6vw;
+}
+
+.menu-card:nth-of-type(2) img{
+    width: 91%;
+}
+.menu-card:nth-of-type(3) img{
+    width: 88%;
+}
+
+.credits {
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: .05em;
+    position: absolute;
+    bottom: 9vh;
+    font-size: .9rem;
+}
+
+/********** Contact **********/
+.map-img {
+    width: 80%;
+}
+
+
+/********** Footer **********/
+footer {
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: .05em;
+    font-weight: bold;
+    background-color: wheat;
+    display: flex;
+    /* width: 100%; */
+    height: 4vh;
+    justify-content: center;
+}
+
+a {
+    /* color: whitesmoke; */
+    text-decoration: none;
+}
