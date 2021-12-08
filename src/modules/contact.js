@@ -1,19 +1,23 @@
 function createContact() {
     const contact = document.createElement('div');
-    contact.classList.add('contact-div')
+    contact.classList.add('contact-div');
 
     const number = document.createElement('p');
-    number.textContent = '789 456 123'
+    number.textContent = '789 456 123';
+
+    const mail = document.createElement('p');
+    mail.textContent = 'restaurant@4meal.com';
 
     const address = document.createElement('p');
-    address.textContent = '1600 Pennsylvania Avenue NW, Washington, DC 20500'
+    address.textContent = '1600 Pennsylvania Avenue NW, Washington, DC 20500';
 
     const mapImage = document.createElement('img');
-    mapImage.src = 'images/mapimage.jpeg'
-    mapImage.alt = 'mapimage'
-    mapImage.classList.add('map-img')
+    mapImage.src = 'images/mapimage.jpeg';
+    mapImage.alt = 'mapimage';
+    mapImage.classList.add('map-img');
 
     contact.appendChild(number);
+    contact.appendChild(mail);
     contact.appendChild(address);
     contact.appendChild(mapImage);
 
