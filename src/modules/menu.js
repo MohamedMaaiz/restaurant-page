@@ -27,7 +27,7 @@ function createMenuItem(name, description, price) {
     cName.textContent = name;
     cDescription.textContent = description;
     cPrice.textContent = price;
-    cImage.src = `images/${name.toLowerCase()}.png`;
+    cImage.src = `images/${name}.png`;
     cImage.alt = `${name}`;
 
     card.appendChild(cName);
