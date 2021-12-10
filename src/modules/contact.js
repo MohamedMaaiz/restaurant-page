@@ -18,9 +18,7 @@ function createContact() {
 
     const chatBtn = document.createElement('button');
     chatBtn.textContent = '';
-    // chatBtn.textContent = 'Start Live Chat';
     chatBtn.classList.add('chat-btn');
-
 
     contact.appendChild(number);
     contact.appendChild(mail);

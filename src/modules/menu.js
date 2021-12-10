@@ -38,7 +38,6 @@ function createMenuItem(name, description, price) {
     return card
 }
 
-
 function loadMenu() {
     const main = document.getElementById('main');
     main.textContent = '';

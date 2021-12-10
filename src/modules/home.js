@@ -3,7 +3,6 @@ function information() {
     about.classList.add('about-div');
 
     const h3 = document.createElement('h3');
-    // h3.textContent = 'Best Restaurant 4 your daily meals'
     h3.innerHTML  = '<p>Best Restaurant</p><p>4 your daily meals</p>'
     about.appendChild(h3);
 
