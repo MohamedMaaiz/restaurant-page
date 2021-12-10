@@ -55,6 +55,20 @@ function createFooter() {
   return footer;
 }
 
+function navBtnActive() {
+  const navBtns = document.querySelectorAll('.nav-btn');
+
+  navBtns[0].classList.add('active');
+  
+  navBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      navBtns.forEach(btns => {
+        btns.classList.remove('active')
+      })
+      btn.classList.add('active')
+    })
+  })
+}
 
 function loadPage() {
   const content = document.getElementById('content');
@@ -63,6 +77,8 @@ function loadPage() {
   content.appendChild(createNav());
   content.appendChild(createFooter());
   content.appendChild(createMain());
+
+  navBtnActive();
 }
   
 export default loadPage;

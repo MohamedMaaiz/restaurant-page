@@ -16,10 +16,17 @@ function createContact() {
     mapImage.alt = 'mapimage';
     mapImage.classList.add('map-img');
 
+    const chatBtn = document.createElement('button');
+    chatBtn.textContent = '';
+    // chatBtn.textContent = 'Start Live Chat';
+    chatBtn.classList.add('chat-btn');
+
+
     contact.appendChild(number);
     contact.appendChild(mail);
     contact.appendChild(address);
     contact.appendChild(mapImage);
+    contact.appendChild(chatBtn);
 
     return contact
 }

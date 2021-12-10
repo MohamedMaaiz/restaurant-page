@@ -17,8 +17,6 @@ function addNavEvents() {
 
 function loadWebsite() {
     loadPage();
-    // loadHome();
-    loadContact();
-    // loadMenu();
+    loadHome();
     addNavEvents();
 }
