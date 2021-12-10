@@ -20,6 +20,7 @@ body {
     display: flex;
     height: 10vh;
     justify-content: center;
+    margin-top: 1vh;
 }
 
 h1 {
@@ -33,7 +34,7 @@ main {
     background: linear-gradient(180deg, rgb(28 2 2) 0%, rgb(35 3 3) 42%, rgb(55 3 3) 100%);
     padding: 1vh 5vw 0vh 5vw;
     font-size: 1.6rem;
-    height: 78vh;
+    height: 100vh;
 }
 
 /********** Nav **********/
@@ -63,7 +64,8 @@ nav button:hover {
 }
 
 .active {
-    background-color: #370303;
+    /* background-color: #370303; */
+    background-color: transparent;
 }
 
 /********** Home **********/
@@ -73,7 +75,7 @@ nav button:hover {
     color: bisque;
     text-align: center;
     line-height: 1.3;
-    height: 73vh;
+    height: 70vh;
     justify-content: space-evenly;
 }
 
@@ -211,7 +213,7 @@ nav button:hover {
     text-align: center;
     line-height: 1.2;
     letter-spacing: .05em;
-    height: 70vh;
+    height: 66vh;
     gap: 3vh;
     padding: 2vh 0;
 }
@@ -290,12 +292,8 @@ footer:hover {
         /* padding-top: 4vh; */
     }
 
-    .about-div {
-        height: 77vh;
-    }
-
     .menu-div {
-        height: 70vh;
+        height: 62vh;
     }
 
     .menu-card {
@@ -309,7 +307,10 @@ footer:hover {
 
     .contact-div {
         justify-content: space-evenly;
-        height: 74vh;
+    }
+
+    .credits:hover {
+        letter-spacing: .05em;
     }
 }
 
@@ -336,6 +337,10 @@ footer:hover {
 
     nav button {
         background-color: transparent;
+    }
+
+    .active {
+        background-color: #370303;
     }
 
     .about-div {
@@ -403,7 +408,6 @@ footer:hover {
     .contact-div {
         gap: 5vh;
         margin-right: 45vw;
-        height: 66vh;
         justify-content: center;
     }
 
