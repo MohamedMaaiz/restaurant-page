@@ -1,6 +1,6 @@
 # Restaurant Homepage
 A demonstration homepage for a small restaurangt.\
-<!-- Check the website: [Live Preview](https://mohamedmaaiz.github.io/restaurant-page/) -->
+Check the website: [Live Preview](https://mohamedmaaiz.github.io/restaurant-page/)
 
 ## Build using: 
 - Webpack
